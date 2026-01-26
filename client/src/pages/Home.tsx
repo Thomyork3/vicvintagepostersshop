@@ -8,7 +8,7 @@ import { SocialLinks } from "@/components/SocialLinks";
 import { SpecialOrderButton } from "@/components/SpecialOrderButton";
 import { WelcomeModal, useWelcomeModal } from "@/components/WelcomeModal";
 import { Button } from "@/components/ui/button";
-import { ArrowLeft, Info } from "lucide-react";
+import { ArrowLeft, Sparkles } from "lucide-react";
 import { CATEGORIES, Subcategory, Poster } from "@shared/types";
 
 export default function Home() {
@@ -102,7 +102,7 @@ export default function Home() {
             <nav className="hidden md:flex gap-3 overflow-x-auto">
               <Button
                 variant={selectedCategory === null && !searchQuery ? "default" : "outline"}
-                onClick={() => { setSelectedCategory(null); setSelectedSubcategory(null); setSearchQuery(""); }}
+                onClick={( ) => { setSelectedCategory(null); setSelectedSubcategory(null); setSearchQuery(""); }}
                 className="whitespace-nowrap text-sm"
                 size="sm"
               >
@@ -191,11 +191,11 @@ export default function Home() {
         <div className="mt-12 flex flex-col items-center gap-4">
           <SpecialOrderButton />
           <Button
-            variant="outline"
             onClick={openModal}
-            className="text-sm"
+            size="lg"
+            className="bg-gradient-to-r from-cyan-500 to-blue-600 hover:from-cyan-600 hover:to-blue-700 text-white shadow-lg hover:shadow-xl transition-all"
           >
-            <Info className="w-4 h-4 mr-2" />
+            <Sparkles className="mr-2 h-5 w-5" />
             Acerca de Vic Vintage
           </Button>
         </div>
@@ -222,5 +222,5 @@ export default function Home() {
         </div>
       </footer>
     </div>
-  );
+   );
 }
