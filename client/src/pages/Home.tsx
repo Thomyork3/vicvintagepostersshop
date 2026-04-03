@@ -92,7 +92,7 @@ export default function Home() {
           <div className="flex items-center justify-between gap-.1">
             <div className="flex items-center gap-30">
               <img 
-                src="https://vicvintage2026.s3.us-east-2.amazonaws.com/Picsart_24-07-25_13-31-39-687.jpg.jpeg" 
+                src="https://vicvintage2026.s3.us-east-2.amazonaws.com/Picsart_24-08-15_14-55-20-484.png" 
                 alt="Posters Vicvintage" 
                 className="h-19 md:h-23 object-contain"
               />
