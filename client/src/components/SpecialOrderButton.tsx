@@ -29,7 +29,7 @@ export function SpecialOrderButton() {
         </DialogHeader>
         <div className="space-y-4">
           <img 
-            src="https://catalogovicvintage.s3.us-east-1.amazonaws.com/COMPRA+.png" 
+            src="https://vicvintage2026.s3.us-east-2.amazonaws.com/COMPRA++(1).png" 
             alt="Cómo realizar una compra"
             className="w-full h-auto rounded-lg"
           />

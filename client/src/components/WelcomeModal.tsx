@@ -27,7 +27,7 @@ export function WelcomeModal({ isOpen, onClose }: WelcomeModalProps) {
           </h2>
           
           <img 
-            src="https://catalogovicvintage.s3.us-east-1.amazonaws.com/PRESENTACION.png" 
+            src="https://vicvintage2026.s3.us-east-2.amazonaws.com/PRESENTACION+(1).png" 
             alt="Vic Vintage Presentación"
             className="w-full h-auto rounded-lg"
           />
